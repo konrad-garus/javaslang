@@ -95,7 +95,7 @@ public abstract class AbstractValueTest {
 
     @Test
     public void shouldGetNonEmpty() {
-        assertThat(of(1).get()).isEqualTo(1);
+        assertThat(of(1).get()).isEqualTo(10000);
     }
 
     // -- getOption()
